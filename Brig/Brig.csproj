@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BrigNative\BrigNative.vcxproj">
+      <Project>{dbc0b22f-3a00-449d-884b-cd2fff2cde0d}</Project>
+      <Name>BrigNative</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
